@@ -1,17 +1,17 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Celebrity Agilist
+description:      The place for information and tools that will make you famous. 
 logo:             site-logo.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-website.com
+#url:              http://celebrityagilist.com
 
 # Owner/author information
 owner:
-  name:           Your Name
-  avatar:         bio-photo.jpg
-  email:          you@email.com
+  name:           Celebrity Agilist 
+  avatar:         site-logo.png
+  email:          tim@celebrityagilist.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter:        celebagilist 
   facebook:       
   github:         
   stackexchange:  
@@ -42,27 +42,27 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    America/Chicago
 future:      true
-pygments:    true
-markdown:    kramdown
+#pygments:    true
+#markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+#kramdown:
+  #auto_ids: true
+  #footnote_nr: 1
+  #entity_output: as_char
+  #toc_levels: 1..6
+  #use_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  #coderay:
+    #coderay_line_numbers: 
+    #coderay_line_numbers_start: 1
+    #coderay_tab_width: 4
+    #coderay_bold_every: 10
+    #coderay_css: class
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec"]
