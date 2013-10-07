@@ -1,0 +1,20 @@
+{% for post in site.categories.articles %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+    {% endfor %}
+    {% for post in site.categories.articles %}
+        {% if post_index0 == forloop.index %}
+            {% assign next_post = post.url %}
+        {% endif %}
+        {% if post_index1 == forloop.index0 %}
+            {% assign prev_post = post.url %}
+        {% endif %}
+    {% endfor %}
+    {% if next_post %}
+    <a href="{{ site.url }}{{ next_post }}" class="btn">Next</a>
+    {% endif %}
+    {% if prev_post %}
+    <a href="{{ site.url }}{{ prev_post }}" class="btn">Previous</a>
+    {% endif %}

@@ -3,6 +3,41 @@ layout: product
 title: "Build Beacon Kit"
 description: "Products description"
 category: products
----
-<a class="wepay-widget-button wepay-green" id="wepay_widget_anchor_52470312bbd2c" href="https://www.wepay.com/stores/768535/item/508201">Buy Now</a>
-<script type="text/javascript">var WePay = WePay || {};WePay.load_widgets = WePay.load_widgets || function() { };WePay.widgets = WePay.widgets || [];WePay.widgets.push( {object_id: 508201,widget_type: "store_item_buy_now",anchor_id: "wepay_widget_anchor_52470312bbd2c",widget_options: {store_id: 768535,show_item_price: true,show_item_images: true,button_text_sold_out: "Sold Out",show_item_custom_options: true,reference_id: ""}});if (!WePay.script) {WePay.script = document.createElement('script');WePay.script.type = 'text/javascript';WePay.script.async = true;WePay.script.src = 'https://static.wepay.com/min/js/widgets.v2.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(WePay.script, s);} else if (WePay.load_widgets) {WePay.load_widgets();}</script>
+wepay:
+  item: 508201
+# image:
+#  feature: broken-windows.jpg 
+#  thumbnail: /images/buildkit/b6b-led.jpg
+#  credit: Just a Prairie Boy 
+#  creditlink: http://www.flickr.com/photos/justaprairieboy/
+--- 
+<figure class="half">
+	<img src="/images/buildkit/b6b-led.jpg">
+	<img src="/images/buildkit/webpowerswitch.jpg">
+	<figcaption>Caption describing these two images.</figcaption>
+</figure>
+
+Your team uses source control and has a continuous integration server,
+but are all your builds green?
+
+You can check. I'll wait.
+
+Yeah, we all know the build should be green, but all the email alert
+caused the team to create a filter rule.
+
+Over the last five years, we found the best solution for adding a build
+light to your continuous integration server. We tried the beacons with
+the rotating reflector. We've tried USB connections from the build
+server to the light. Then we realized our CI server wasn't located in
+each teams area. So we tried the X10 remote outlets and struggled with  and moved to X10 remote outlets, but had the best success
+with the reliable LED beacon that doesn't have moving parts and the Web
+power strip.
+
+How much is your time worth? We spent countess hours learning the
+best solution for a build light.
+
+Included:
+* Web power strip 
+* Blue (or Red) LED Beacon
+* Python Script
+* Step by step installation instructions

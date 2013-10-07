@@ -3,7 +3,7 @@ description:      The place for information and tools that just might make you f
 logo:             site-logo.png
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://celebrityagilist.com
+#url:              http://celebrityagilist.com
 
 # Owner/author information
 owner:
@@ -31,8 +31,10 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  #- title: About
-    #url: /about
+  - title: About
+    url: /
+  - title: Products 
+    url: /products
   #- title: Articles
     #url: /articles
   #- title: Theme Setup
