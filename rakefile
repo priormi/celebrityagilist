@@ -1,0 +1,10 @@
+require 'rubygems'
+require 'rake'
+ 
+task :default => [:lessc]
+
+desc "Compile the css from the less files."
+task :lessc do
+  puts 'Updating main.css'
+  exec 'lessc ./assets/less/main.less > ./assets/css/main.css'
+end

@@ -12,9 +12,9 @@
             {% assign prev_post = post.url %}
         {% endif %}
     {% endfor %}
-    {% if next_post %}
-        <a href="{{ site.url }}{{ next_post }}" class="btn">Next</a>
-    {% endif %}
     {% if prev_post %}
         <a href="{{ site.url }}{{ prev_post }}" class="btn">Previous</a>
+    {% endif %}
+    {% if next_post %}
+        <a href="{{ site.url }}{{ next_post }}" class="btn">Next</a>
     {% endif %}

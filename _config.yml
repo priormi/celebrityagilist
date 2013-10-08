@@ -1,9 +1,9 @@
 title:            Celebrity Agilist
 description:      The place for information and tools that just might make you famous.
 logo:             site-logo.png
-disqus_shortname: 
+disqus_shortname: celebrityagilist
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://celebrityagilist.com
+url:              http://celebrityagilist.com
 
 # Owner/author information
 owner:
@@ -33,10 +33,10 @@ bing_verify:
 links:
   - title: About
     url: /
-  - title: Products 
-    url: /products
-  #- title: Articles
-    #url: /articles
+  #- title: Products 
+    #url: /products
+  - title: Articles
+    url: /articles
   #- title: Theme Setup
     #url: /theme-setup
   #- title: Agile Manifesto
