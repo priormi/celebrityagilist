@@ -8,3 +8,8 @@ task :lessc do
   puts 'Updating main.css'
   exec 'lessc ./assets/less/main.less > ./assets/css/main.css'
 end
+
+desc "Serve drafts and watch"
+task :serve do
+  exec 'jekyll serve --drafts --watch'
+end
