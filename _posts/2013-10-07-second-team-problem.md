@@ -4,6 +4,10 @@ title: "Second Team Problem"
 description: "Why is the second agile team so difficult?"
 category: articles
 comments: true  
+author:
+ name: Tim Gifford
+ url: http://www.linkedin.com/in/timgifford/
+ avatar: timgifford.jpg
 ---
 Last week, I attended a presentation at a large financial services company in
 downtown Des Moines, Iowa. The company brought in David Hussman from
